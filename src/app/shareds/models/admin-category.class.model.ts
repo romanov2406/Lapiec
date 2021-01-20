@@ -5,5 +5,7 @@ export class Category implements ICategory{
         public id:string,
         public nameUA:string,
         public nameEN:string
-    ){}
+    ){
+        
+    }
 }
