@@ -1,0 +1,29 @@
+.d-flex {
+  width: 100%;
+  justify-content: space-between;
+  height: 70px;
+  background-color: rgba(192, 192, 192, 0.349);
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+h4 {
+  width: 80%
+}
+
+.buttonAdd {
+  width: 20%;
+}
+
+.btn.btn-dark {
+  width: 60%;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

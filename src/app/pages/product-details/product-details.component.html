@@ -1,0 +1,74 @@
+<div class="container">
+  <div class="menu-back mb-3">
+    <nav class="nav">
+      <a class="nav-link" routerLink="/home">Головна > </a>
+      <a class="nav-link" [routerLink]="[ '/menu/'+view?.category.nameEN ]">
+        {{view?.category.nameUA | titlecase}} >
+      </a>
+      <a class="nav-link text-warning">
+        {{view?.nameUA | titlecase}}
+      </a>
+    </nav>
+    <hr>
+  </div>
+  <div class="d-flex justify-content-between">
+    <div class="forImage">
+      <img class="imgBig" [attr.src]="view?.image" alt="image product">
+    </div>
+    <div class="productInfo">
+      <h1>{{ view?.nameUA | titlecase}}</h1>
+      <p>{{ view?.description }}</p>
+      <div *ngIf="view?.category.nameEN === 'pizza' ? true: false">
+        <span class="text-danger font-weight-bolder">
+          Додатки :
+        </span>
+        <span *ngFor="let ingr of viewIngredients;">
+          <span>{{ ingr.nameUA }}</span>
+          <button type="button" class="deleteBtn" (click)="deleteIngredient(ingr)">x</button>
+        </span>
+      </div>
+      <div class="d-flex justify-content-around">
+        <div *ngIf="view?.category.nameEN === 'pizza' ? true: false">
+          <i class="uil uil-compress-alt" style="font-size: 20px;"></i>
+          Розмір : <span class="font-weight-bold">30 см</span>
+        </div>
+        <div>
+          <i class="uil uil-weight" style="font-size: 20px;"></i>
+          Вага : <span class="font-weight-bold">{{ view?.weight }}</span>
+        </div>
+      </div>
+      <hr>
+      <div class="text-center">
+        <p>Кількість : </p>
+        <div class="d-flex justify-content-center">
+          <button type="button" class="btnCount" (click)="productCount(view, false)"
+            [disabled]="view?.count===1 ? true : false">-</button>
+          <input type="text" [value]="view?.count">
+          <button type="button" class="btnCount" (click)="productCount(view, true)">+</button>
+        </div>
+        <p class="mt-3">Загалом : <span class="font-weight-bold price">{{ view?.price * view?.count + ingredientPrice}}
+            грн</span></p>
+        <div class="d-flex justify-content-center">
+          <button class="btn buy" (click)="addBasket(view)">ЗАМОВИТИ</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="ingsInfo" *ngIf="view?.category.nameEN === 'pizza' ? true: false">
+    <h1 class="mt-5 mb-4 text-center">Додатки до піци</h1>
+    <div class="d-flex">
+      <div class="smallBoxIngr" *ngFor="let ingredient of ingredients;" (click)="addIngredient(ingredient)">
+        <p class="text-center font-weight-bolder">{{ ingredient.nameUA | titlecase }}</p>
+        <div class="imageDiv">
+          <img class="ingrImg" [attr.src]="ingredient.image" alt="">
+        </div>
+        <div class="infoIngrDescr">
+          <p style="color:grey">{{ ingredient.weight }} гр</p>
+          <p class="font-weight-bolder">{{ ingredient.price }} грн</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

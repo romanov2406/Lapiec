@@ -1,0 +1,22 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-2">
+      <div class="nav flex-column nav-pills">
+        <a class="nav-link" [routerLink]="[ 'category' ]" routerLinkActive="active">Category</a>
+        <a class="nav-link" [routerLink]="[ 'product' ]" routerLinkActive="active">Products</a>
+        <a class="nav-link" [routerLink]="[ 'ingredients' ]" routerLinkActive="active">Pizza Ingredients</a>
+        <a class="nav-link" [routerLink]="[ 'discount' ]" routerLinkActive="active">Discounts</a>
+        <a class="nav-link" [routerLink]="[ 'orders' ]" routerLinkActive="active">Orders</a>
+        <a class="nav-link" [routerLink]="[ 'blog' ]" routerLinkActive="active">Blog</a>
+        <a style="cursor: pointer;" class="nav-link" (click)="logOut()">Log Out</a>
+      </div>
+    </div>
+    <div class="col-10">
+      <div class="tab-content">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+
+</div>
+

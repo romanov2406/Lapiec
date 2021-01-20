@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="d-flex">
+        <div class="smallBox mt-3" *ngFor="let blog of arrayOfBlogs">
+            <div>
+                <img [attr.src]="blog.image" alt="image Blog">
+            </div>
+            <div class="card-body">
+                <p class="date">{{ blog.date | date :'medium' }} {{ blog.author }}</p>
+                <h5 class="card-title">{{ blog.title | titlecase}}</h5>
+                <p class="card-text">{{ blog.text }}</p>
+            </div>
+        </div>
+    </div>
+</div>

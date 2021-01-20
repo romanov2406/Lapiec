@@ -1,0 +1,110 @@
+<div class="container">
+  <div class="headerCategory">
+    <h4>Product</h4>
+    <div class="buttonAdd">
+      <button class="btn btn-dark" (click)="openModal(template)">ADD</button>
+    </div>
+  </div>
+  <input type="search" class="form-control mb-1" placeholder="Filter product..." aria-label="Filter product..."
+  [(ngModel)]="filterProduct" name="filterProduct">
+  <div>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Category</th>
+          <th scope="col">Name UA</th>
+          <th scope="col">Name EN</th>
+          <th scope="col">Description</th>
+          <th scope="col">Weight</th>
+          <th scope="col">Price</th>
+          <th scope="col">Image</th>
+          <th scope="col">Edit</th>
+          <th scope="col">Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of cloudProducts | filterAdminCategory:filterProduct; let i=index">
+          <td scope="row">{{ i+1 }}</td>
+          <td>{{ product.category.nameUA | titlecase}}</td>
+          <td>{{ product.nameUA | titlecase}}</td>
+          <td>{{product.nameEN | titlecase}}</td>
+          <td>{{product.description | titlecase}}</td>
+          <td>{{product.weight}}</td>
+          <td>{{product.price}}</td>
+          <td>
+            <img class="" [attr.src]="product.image" alt="image">
+          </td>
+          <td><button class="btn btn-outline-secondary" (click)="editProduct(template,product)">Edit</button></td>
+          <td><button class="btn btn-outline-secondary" (click)="deleteProductConfirm(confirm,product)">Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <ng-template #template>
+    <div class="modal-header">
+      <p *ngIf="!editStatus">Add Product</p>
+      <p *ngIf="editStatus">Edit Product</p>
+      <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form>
+        <div class="form-group">
+          <label for="categorySelect">Select category:</label>
+          <select class="form-control" id="categorySelect" [(ngModel)]="categoryName" (change)="setCategory()" name="categoryName">
+            <option disabled selected>Choose category</option>
+              <option *ngFor="let category of cloudCategories;" [value] = "category.nameEN">
+              {{category.nameEN | titlecase}}</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="ua">Name UA:</label>
+          <input type="text" class="form-control" id="ua" placeholder="Enter name ua" [(ngModel)]="productNameUA"
+            name="productNameUA">
+        </div>
+        <div class="form-group">
+          <label for="en">Name EN:</label>
+          <input type="text" class="form-control" id="en" placeholder="Enter name en" [(ngModel)]="productNameEN"
+            name="productNameEN">
+        </div>
+        <div class="form-group">
+          <label for="description">Description:</label>
+          <input type="text" class="form-control" id="description" placeholder="Enter description"
+            [(ngModel)]="productDescription" name="productDescription">
+        </div>
+        <div class="form-group">
+          <label for="weight">Weight:</label>
+          <input type="text" class="form-control" id="weight" placeholder="Enter weight" [(ngModel)]="productWeight"
+            name="productWeight">
+        </div>
+        <div class="form-group">
+          <label for="price">Price:</label>
+          <input type="number" class="form-control" id="price" placeholder="Enter price" [(ngModel)]="productPrice"
+            name="productPrice">
+        </div>
+        <div class="custom-file">
+          <input (change)="uploadFile($event)" type="file" class="custom-file-input" id="validatedCustomFile" required>
+          <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+        </div>
+        <div class="progress mt-3 mb-3">
+          <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+            [style.width]="(uploadProgress | async) + '%'" aria-valuemin="0" aria-valuemax="100"></div>
+        </div>
+        <!-- <button *ngIf="!editStatus" type="button" class="btn btn-success"
+          (click)="AddProduct()">ADD</button> -->
+          <button *ngIf="!editStatus" type="button" class="btn btn-success"
+          (click)="addCloudProduct()">ADD</button>
+        <button *ngIf="editStatus" type="button" class="btn btn-success" (click)="saveCloudProduct()">Save</button>
+      </form>
+    </div>
+  </ng-template>
+</div>
+<ng-template #confirm>
+  <div class="modal-body text-center">
+    <p>Do you want to delete?</p>
+    <button type="button" class="btn btn-danger mr-1" (click)="deleteProduct()" >Remove</button>
+    <button type="button" class="btn btn-secondary" (click)="decline()" >Decline</button>
+  </div>
+</ng-template>

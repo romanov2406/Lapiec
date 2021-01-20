@@ -1,0 +1,63 @@
+<div class="container">
+  <div class="input-group mb-3">
+    <div class="buttonAdd">
+      <button class="btn btn-dark" (click)="openModal(template)">ADD</button>
+    </div>
+  </div>
+  <div>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name UA</th>
+          <th scope="col">Name EN</th>
+          <th scope="col">Edit</th>
+          <th scope="col">Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let category of cloudCategories; let i=index">
+          <th scope="row">{{ i+1 }}</th>
+          <td class="editTdName">{{category.nameUA | titlecase}}</td>
+          <td class="editTdName">{{category.nameEN | titlecase}}</td>
+          <td><button class="btn btn-outline-secondary" (click)="editCategory(template,category)">Edit</button></td>
+          <td><button class="btn btn-outline-secondary" (click)="deleteCategoryConfirm(confirm,category)">Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <ng-template #template>
+    <div class="modal-header">
+      <p *ngIf="!editStatus">Add category</p>
+      <p *ngIf="editStatus">Edit category</p>
+      <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+      <form>
+        <div class="form-group">
+          <label for="title">Category Name UA</label>
+          <input type="text" class="form-control input" [(ngModel)]="categoryNameUA" name="categoryNameUA"
+            placeholder="Name UA....">
+        </div>
+        <div class="form-group">
+          <label for="text">Category Name EN</label>
+          <input type="text" class="form-control input" [(ngModel)]="categoryNameEN" name="categoryNameEN"
+            placeholder="Name EN....">
+        </div>
+        <button *ngIf="!editStatus" [disabled]="!categoryNameUA" type="button" class="btn btn-success"
+          (click)="addCloudProduct()">ADD</button>
+        <button *ngIf="editStatus" type="button" class="btn btn-success" (click)="saveEditCategory()">Save</button>
+      </form>
+    </div>
+  </ng-template>
+</div>
+<ng-template #confirm>
+  <div class="modal-body text-center">
+    <p>Do you want to delete?</p>
+    <button type="button" class="btn btn-danger mr-1" (click)="deleteCategory()" >Remove</button>
+    <button type="button" class="btn btn-secondary" (click)="decline()" >Decline</button>
+  </div>
+</ng-template>

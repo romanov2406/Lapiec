@@ -1,0 +1,62 @@
+.container {
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  text-align: center;
+  margin: 20px 0;
+}
+.greenZone,
+.yellowZone{
+  width: 45%;
+  margin-top: 30px;
+}
+.image,
+.zoneInfo {
+  width: 45%;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.boxInfoDelivery {
+  width: 80%;
+  margin: 40px auto;
+}
+
+div.img {
+  width: 5%;
+  height: 50px;
+}
+
+div.description {
+  width: 93%;
+}
+
+p.text {
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.payBox {
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+  height: 230px;
+}
+
+.payBoxLeft,
+.payBoxRight {
+  width: 47%;
+  outline: 1px solid #dee2e6;
+  padding: 10px;
+}
+
+.payImg {
+  height: 70px;
+}

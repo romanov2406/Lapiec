@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "trainee-lapiec-14bc2": {
+      "hosting": {
+        "la-piec": [
+          "trainee-lapiec-14bc2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "trainee-lapiec-14bc2"
+  }
+}

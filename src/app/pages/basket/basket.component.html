@@ -1,0 +1,77 @@
+<div class="container">
+  <h1 [@appear] *ngIf="orders.length!==0">Оформити замовлення</h1>
+  <div *ngIf="orders.length==0" class="empty">
+    <p>Кошик порожній.</p>
+    <div> <a routerLink="/home" class="text-warning">На головну</a></div>
+  </div>
+  <div class="main"  *ngIf="orders.length!==0">
+    <div class="infoLeft">
+      <form>
+        <div class="form-group">
+          <label for="formName">Ім'я</label>
+          <input class="form-control" id="formName" [(ngModel)]="userName" name="userName" type="text" placeholder="Ваше ім'я...">
+        </div>
+        <div class="form-group">
+          <label for="formPhone">Телефон</label>
+          <input class="form-control" id="formPhone" [(ngModel)]="userPhone" name="userPhone" type="text" placeholder="Номер телефону...">
+        </div>
+        <div class="d-flex justify-content-between">
+          <div class="form-group">
+            <label for="formCity">Місто</label>
+            <input class="form-control box" id="formCity" [(ngModel)]="userCity" name="userCity" type="text" placeholder="Місто...">
+          </div>
+          <div class="form-group">
+            <label for="formStreet">Вулиця</label>
+            <input class="form-control box" id="formStreet" [(ngModel)]="userStreet" name="userStreet" type="text" placeholder="Вулиця...">
+          </div>
+          <div class="form-group">
+            <label for="formHouse">№ будинку</label>
+            <input class="form-control box" id="formHouse" [(ngModel)]="userHouse" name="userHouse" type="text" placeholder="№..">
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" [(ngModel)]="userComment" name="userComment" id="comment" rows="3" placeholder="Ваш коментар..."></textarea>
+        </div>
+      </form>
+    </div>
+    <div class="infoRight">
+      <table class="table" >
+        <thead>
+          <th>Товар</th>
+          <th>Ціна</th>
+          <th>К-сть</th>
+          <th>Всього</th>
+          <th></th>
+        </thead>
+        <tbody>
+          <tr *ngFor="let order of orders; let i=index">
+            <td class="font-weight-bold " style="font-size: 12px;">
+              <img [attr.src]="order.image" alt="image">
+              {{ order.nameUA | titlecase}}
+            </td>
+            <td class="text-center">{{ order.price }} грн</td>
+            <td>
+              <div class="d-flex justify-content-center">
+                <button type="button" class="btnCount" (click)="orderCount(order, false)"
+                  [disabled]="order.count===1 ? true : false">-</button>
+                <input type="text" class="count" [value]="order.count">
+                <button type="button" class="btnCount" (click)="orderCount(order, true)">+</button>
+              </div>
+            </td>
+            <td class="text-center text-maroon">
+              {{ order.price * order.count }} грн
+            </td>
+            <td class="text-center">
+              <button type="button" class="btn" (click)="deleteOrder(order)">x</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="mt-3">
+        <button class="formOrderBtn" type="button"(click)="addOrder()">Оформити замовлення</button>
+      </div>
+      
+    </div>
+  </div>
+</div>
+

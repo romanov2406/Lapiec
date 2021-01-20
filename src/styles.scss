@@ -1,0 +1,19 @@
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #ffdd15  #705e03;
+}
+
+body::-webkit-scrollbar-track {
+  background: #ffdd15;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #705e03;
+  border-radius: 5px;
+  border: 3px solid #ffdd15;
+}

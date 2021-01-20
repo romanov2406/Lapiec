@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="d-flex">
+    <div class="smallBox" *ngFor="let product of products">
+      <div class="card">
+        <div class="img">
+          <img [attr.src]="product.image" alt="Card image cap">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title text-center">{{ product.nameUA | titlecase }}</h5>
+          <p *ngIf="product.category.nameEN === 'drinks' ? true: false" class="text-center font-weight-bold">
+            {{ product.weight }}
+          </p>
+          <p class="card-text price">{{ product.price * product.count }} грн</p>
+          <div class="d-flex justify-content-center">
+            <button type="button" class="btnCount" (click)="productCount(product, false)"
+              [disabled]="product.count===1 ? true : false">-</button>
+            <input type="text" [value]="product.count">
+            <button type="button" class="btnCount" (click)="productCount(product, true)">+</button>
+          </div>
+          <hr>
+          <div class="d-flex justify-content-between">
+            <a *ngIf="product.category.nameEN!=='drinks'" href="#" class="btn details"
+              [routerLink]="[ '/menu/+product.category.nameEN', product.id ]">Детальніше
+            </a>
+            <button class="btn buy" (click)="AddBusket(product)">Замовити</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

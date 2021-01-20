@@ -1,0 +1,68 @@
+<div class="main">
+  <button type="button" class="btn btn-outline-secondary mr-5" (click)="logOut()">Log Out</button>
+  <button type="button" *ngIf="noFullInfo" class="btn btn-success" (click)="openModal(template)">Add Info</button>
+  <div class="userInfo">
+    <h2 class="text-center text-dark mb-4">Особистий кабінет
+      <button *ngIf="!noFullInfo" type="button" class="btn btn-warning" (click)="editInfo(template)">Edit</button>
+    </h2>
+    <div class="d-flex justify-content-between">
+      <div class="forImage" >
+        <img [src]="userImage" alt="">
+      </div>
+      <div class="info">
+        <p>Ім'я : <span>{{name}}</span></p>
+        <p>Телефон : <span>{{phone}}</span></p>
+        <p>Місто : <span>{{city}}</span></p>
+        <p>Вулиця : <span>{{street}}</span></p>
+        <p>Дім : <span>{{house}}</span></p>
+        <p>Останнє замовлення : <span>{{ lastOrder | titlecase }}</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #template>
+  <div class="modal-header">
+    <p *ngIf="!editStatus">Add Info</p>
+    <p *ngIf="editStatus">Edit Info</p>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <form #myForm="ngForm">
+      <div class="form-group">
+        <label for="userName">Name:</label>
+        <input type="text" class="form-control" id="userName" [(ngModel)]="userName" name="userName" required>
+      </div>
+      <div class="form-group">
+        <label for="userPhone">Phone :</label>
+        <input type="text" class="form-control" id="userPhone" [(ngModel)]="userPhone" name="userPhone" required>
+      </div>
+      <div class="form-group">
+        <label for="userCity">City :</label>
+        <input type="text" class="form-control" id="userCity" [(ngModel)]="userCity" name="userCity" required>
+      </div>
+      <div class="form-group">
+        <label for="userStreet">Street :</label>
+        <input type="text" class="form-control" id="userStreet" [(ngModel)]="userStreet" name="userStreet" required>
+      </div>
+      <div class="form-group">
+        <label for="userHouse">House :</label>
+        <input type="text" class="form-control" id="userHouse" [(ngModel)]="userHouse" name="userHouse" required>
+      </div>
+
+      <div class="custom-file">
+        <input (change)="uploadFile($event)" type="file" class="custom-file-input" id="validatedCustomFile" required>
+        <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
+      </div>
+      <div class="progress mt-3 mb-3">
+        <div class="progress-bar progress-bar-striped bg-success" role="progressbar"
+          [style.width]="(uploadProgress | async) + '%'" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <button *ngIf="!editStatus" [disabled]="myForm.invalid" class="btn btn-success" type="submit"
+        class="btn btn-primary" (click)="AddNewInfo()">Add</button>
+      <button *ngIf="editStatus" type="button" class="btn btn-warning" (click)="saveEditInfo()">Save</button>
+    </form>
+  </div>
+</ng-template>

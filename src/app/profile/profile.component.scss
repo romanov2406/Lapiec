@@ -1,0 +1,52 @@
+.main {
+  width: 90%;
+  margin: 30px auto;
+  margin-bottom: 100px;
+}
+
+.userInfo {
+  align-items: center;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  word-spacing: 2px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color : #343a40;
+  font-size: 18px;
+  word-spacing: 2px;
+  line-height: 50px;
+}
+
+.forImage,
+.info {
+  width: 45%;
+  height: 400px;
+}
+.forImage{
+  display: flex;
+ justify-content: center;
+}
+img{
+  width: 350px;
+  height: 100%;
+  border: 2px groove #343a40;
+}
+span{
+  color: #ffc107;
+  font-size: 20px;
+}
+.btn.btn-warning{
+  background-color: transparent;
+  border: none;
+  color: #ffc107;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-decoration: underline #343a40;
+}
+.btn.btn-warning:hover{
+  color: #f8ba0079;
+}

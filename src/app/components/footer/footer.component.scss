@@ -1,0 +1,59 @@
+footer {
+  max-height: 450px;
+  overflow: hidden;
+}
+
+.d-flex {
+  justify-content: space-around;
+}
+
+.colFirst {
+  width: 20%;
+}
+
+.colSecond,
+.colFThird,
+.colFourth {
+  width: 24%;
+}
+
+.logoImage {
+  display: block;
+  width: 194px;
+  height: 70px;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+}
+
+.logoImage:hover {
+  opacity: 0.5;
+}
+
+div.card {
+  border-radius: 0;
+}
+
+.social a {
+  transition-property: opacity;
+  transition-duration: 0.3s;
+}
+
+.social a:hover {
+  opacity: 0.5;
+}
+
+.nav-link {
+  color: whitesmoke;
+  text-align: center;
+  cursor: pointer;
+  transition-property: color;
+  transition-duration: 0.3s;
+}
+
+.nav-link:hover {
+  color: #f7c200;
+}
+
+.appLogo {
+  height: 40px;
+}

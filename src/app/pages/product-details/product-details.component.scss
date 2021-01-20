@@ -1,0 +1,103 @@
+.container {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+a{
+  color: black;
+}
+a:hover{
+  color: #ffdd15;
+}
+.forImage {
+  width: 45%;
+  height: 500px;
+}
+
+.imgBig {
+  width: 100%;
+  height: 500px;
+}
+
+.productInfo {
+  width: 45%;
+  height: 500px;
+  padding: 30px;
+}
+
+.btnCount {
+  border: none;
+  background-color: transparent;
+  color: maroon;
+  font-size: 20px;
+}
+
+input[type=text] {
+  text-align: center;
+  width: 30px;
+}
+h1 {
+  font-family: Georgia, serif;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+p,
+span{
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+p.text-center.font-weight-bolder{
+  font-family: Georgia, serif;
+  height: 40px;
+}
+.price{
+  color:maroon;
+  font-size: 25px;
+}
+.btn.buy{
+  background-color: maroon;
+  color: white;
+  width: 50%;
+  height: 50px;
+  border-radius: 30px;
+  transition-property: background-color;
+  transition-duration: 0.3s;
+}
+.btn.buy:hover{
+  border: 1px solid maroon;
+  background-color: white;
+  color: maroon;
+}
+.ingsInfo{
+  margin-top: 30px;
+}
+.d-flex{
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.smallBoxIngr{
+  width: 15%;
+  height: 180px;
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition-property:  box-shadow;
+  transition-duration: 0.3s;
+}
+.smallBoxIngr:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.ingrImg{
+  width: 100%;
+  height: 70px;
+}
+.infoIngrDescr{
+  display: flex;
+  justify-content: space-around;
+}
+.deleteBtn{
+  background-color: white;
+  border: none;
+  color: maroon;
+  font-size: 15px;
+}

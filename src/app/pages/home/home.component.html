@@ -1,0 +1,40 @@
+<div class="main">
+  <carousel [routerLink]="[ '/discount' ]">
+    <slide>
+      <img src="https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Fbanner1.png?alt=media&token=4ef9c1b4-b2af-404c-b8d0-31f2d2488397"
+        alt="first slide" style="display: block; width: 100%;">
+        <div class="carousel-caption d-none d-md-block text-black"></div>
+    </slide>
+    <slide>
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Fbanner2.png?alt=media&token=e13998e5-ed95-410b-8215-3f8462245ac6"
+        alt="second slide" style="display: block; width: 100%;">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </slide>
+    <slide>
+      <img
+        src="https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Fbanner3.png?alt=media&token=15c66c0a-1955-4033-8857-01e324e23cdb"
+        alt="third slide" style="display: block; width: 100%;">
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+    </slide>
+  </carousel>
+</div>
+<div class="infoBottom d-flex">
+  <div class="smallBox justify-content-around">
+    <div class="forImg1"></div>
+    <button type="button" class="btn" [routerLink]="[ '/payment' ]">ОПЛАТА</button>
+  </div>
+  <div class="smallBox flex-column mt-5">
+    <p style="color: #f7c200;">00:27:12</p>
+    <p style="color: white;">Середній час доставки в зеленій зоні</p>
+  </div>
+  <div class="smallBox justify-content-around">
+    <div>
+      <p style="color: white;">Графік роботи :</p>
+      <p style="color: #f7c200;">цілодобово</p>
+    </div>
+    <div class="forImg2"></div>
+  </div>
+</div>

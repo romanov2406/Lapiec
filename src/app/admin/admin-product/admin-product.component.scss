@@ -1,0 +1,37 @@
+.container {
+  margin-bottom: 20px;
+}
+
+.headerCategory {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: rgba(192, 192, 192, 0.349);
+  padding: 5px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+h4 {
+  width: 80%
+}
+
+.buttonAdd {
+  width: 20%;
+}
+
+.btn.btn-dark {
+  width: 60%;
+}
+
+.editTdName {
+  width: 40%;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

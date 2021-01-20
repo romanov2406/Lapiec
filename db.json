@@ -1,0 +1,769 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "discounts": [
+    {
+      "id": 2,
+      "title": "Самовивіз",
+      "text": "Забирайте своє замовлення самостійно та отримуйте суттєві переваги: – гарячу, щойно спечену в печі улюблену піцу; – знижку 20% ; – відсутність мінімальної суми замовлення!  Умови для отримання знижки 20%: 1. Обрати улюблені піцу, салат або напої в меню на сайті. 2. В “Корзині” обрати доставку “Самовивіз” та адресу найближчого до вас виробництва. 3. Знижка 20% нараховується автоматично та поширюється на усі позиції в чеку. 4. Підтвердити замовлення та очікувати на дзвінок адміністратора щодо уточнення часу забирання замовлення. 5. Також можна зателефонувати до оператора і просто озвучити бажання забрати замовлення самостійно. 6. Здійснити самовивіз та скористатися знижкою можна щодня з 10:00 до 22:00 7. Дана акція не поєднується з іншими акціями.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F0ce5b7db-a390-4e95-a031-9d44b9452347.jpeg?alt=media&token=4062f9e9-1170-49f5-a96e-91d60c4ed18f"
+    },
+    {
+      "id": 3,
+      "title": "Приведи друга",
+      "text": "Отримайте 100 грн за… дружню пораду!  Якщо ваш друг, зробить у нас замовлення завдяки вашим рекомендаціям, то ви обоє гарантовано отримаєте по 100 грн.  Умови акції: – Зареєструватися на нашому сайті та згенерувати унікальне реферальне посилання; – Надіслати його будь-яким зручним способом своєму другу або декільком друзям; – Якщо друг*, перейшовши по посиланню, зробить замовлення, то відразу отримає гарантовану знижку 100 грн; – У своєму кабінеті ви побачите нараховані 100 бонусів, які можна використовувати для розрахунку за своє замовлення. Бонуси нараховуються протягом доби з моменту отримання другом замовлення. – Мінімальна сума замовлення має складати 150 грн в Зеленій зоні та 250 грн в Жовтій; – Дана акція не поєднується з іншими акціями; – Можна запрошувати безліч друзів і збільшувати кількість бонусів))",
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F397e8388-43b9-43fa-869c-3da7e9990896.jpeg?alt=media&token=948a3f82-a52f-44b3-988b-715e14238f7b"
+    },
+    {
+      "id": 5,
+      "title": "День Народження",
+      "text": " Святкуйте свій День народження з “LA П’ЄЦ” та отримуйте 3 піци у подарунок!  Умови акції: – Під подарунком мається на увазі безкоштовний “Святковий набір” з трьох піц: Капрічоза, Салямі та Маргарита. Вміст набору є незмінним. – Мінімальна сума замовлення має складати 500 грн, незалежно від зони доставки. – Акцією може скористатися кожен клієнт в день свого народження та протягом 7-ми днів після нього. – Дана акція не поєднується з іншими акціями. – “Святковий набір” додає до замовлення оператор call-центру в телефонній розмові після того, як клієнт проінформує його про дату свого народження та після перевірки виконання усіх вище перерахованих умов. – Під час отримання замовлення іменинник має показати кур’єру оригінал документу, що підтверджує його дату народження (паспорт, водійські права тощо)",
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Fb9a46f9f-f575-4e15-9641-7a0261739c48.jpeg?alt=media&token=8947bd79-7dd3-4b60-8be7-05f6a373164a"
+    },
+    {
+      "id": 6,
+      "title": "Цілодобова доставка",
+      "text": "La П’єц – найсмачніша піца на дровах з цілодобовою безкоштовною доставкою по Львову.  Замовлення піци додому або в офіс виручить вас в будь-який час дня і ночі. Планується сімейне свято? Найпростіше замовити піцу La П’єц і запропонувати до неї сік або коктейлі – таку трапезу оцінять всі учасники застілля. Гості на порозі, а ви не знаєте, чим їх пригостити? Віддайте перевагу перевіреній часом піці на дровах La П’єц.  Всього за декілька хвилин піцайола замісить тісто з добірного борошна, приготує начинку зі свіжих овочів, ніжного м’яса або ароматної курки та відправить піцу в піч рівно на 7 хвилин. За цей час тісто покриється хрусткою скоринкою. Поки здійснюється доставка піци і кур’єр поспішає привезти вам замовлення, скоринка зберігає свій хруст, а тісто просочується запахом і смаком начинки. Температура начинки тим часом знижується від палючої до ідеальної, при якій смак кожного інгредієнта гармонійно поєднується з іншими. Ви відкриєте теплу коробку, і ось вона – смачна, ароматна і гаряча піца з доставкою La П’єц .  Ми цілодобово привозимо частинку Італії до вашого столу.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F3a9589b6-c9e7-4bfa-89e2-749a073234c5.png?alt=media&token=3784a663-2336-41ab-929e-ab5ae04b4700"
+    },
+    {
+      "id": 7,
+      "title": "Доставимо вчасно або піца безкоштовно",
+      "text": "Доставка піци у Львові «La П’єц» чітко розрахована за часом і зонами міста (зелена та жовта). Ми одразу зазначаємо час доставки і робимо все, щоб не порушити його.  Замовити піцу у Львові з доставкою – не така проста задача, як може здатись на перший погляд. Є кілька відомих сервісів, але, будемо чесними, кожен із них має свої недоліки. Ми почали працювати для того, щоб Ви нарешті знайшли свій ідеальний сервіс доставки піци додому. Ми поєднуємо найсвіжіші продукти з чистих Карпат, професійних кулінарів та стараємось надати Вам щонайприємніше обслуговування. Спробуйте доставку «La П’єц» – і ми назавжди будемо разом.  Швидка доставка піци у Львові працює для Вас щоденно, тому смачній піці – бути!",
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Fc42b0800-4b6c-49dc-b0b7-d6a6e9452ddb.jpeg?alt=media&token=927e8813-9722-4b68-a164-c149dc8d5145"
+    },
+    {
+      "id": 8,
+      "title": "Фірмова акція \"3 + 1\"",
+      "text": " Наша фірмова акція “3+1”: при замовленні будь-яких чотирьох піц отримуєте одну безкоштовно  * Безкоштовною вважається піца з найменшою вартістю ** Дана акція не поєднується з іншими акціями.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Fc1f08365-a8e4-412d-b4dc-a846787ffdd9.jpeg?alt=media&token=8b5673e2-7db0-467d-8825-42bdd383b8af"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "nameUA": "піца",
+      "nameEN": "pizza"
+    },
+    {
+      "id": 2,
+      "nameUA": "салат",
+      "nameEN": "salad"
+    },
+    {
+      "id": 3,
+      "nameUA": "напої",
+      "nameEN": "drinks"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category": {
+        "id": 1,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "Маргарита",
+      "nameEN": "Margaryta",
+      "description": "соус томатний, сир моцарела, помідори.",
+      "weight": "400 гр",
+      "price": 99,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F1007cea2-4344-4c08-ad00-c05713178116.jpeg?alt=media&token=49bb9684-3880-484f-85b7-950e005b8eb9",
+      "count": 1
+    },
+    {
+      "id": 2,
+      "category": {
+        "id": 2,
+        "nameUA": "напої",
+        "nameEN": "drinks"
+      },
+      "nameUA": "Вода BonAqua",
+      "nameEN": "BonAqua",
+      "description": "",
+      "weight": "0,5 л",
+      "price": 20,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F2f556427-24c9-4249-81d4-e8fa5bf1c078.jpeg?alt=media&token=04da9501-b9f9-43dc-b1e4-fd614d6eb62a",
+      "count": 1
+    },
+    {
+      "id": 3,
+      "category": {
+        "id": 3,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "Капрічоза",
+      "nameEN": "Kaprichoza",
+      "description": "соус томатний, сир моцарела, шинка, свіжі гриби.",
+      "weight": "450 гр",
+      "price": 141,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Fce7d33b6-a4aa-42ff-b6f3-d6ee11b6693e.jpeg?alt=media&token=10baf660-d3c9-4a56-9b13-a6e3084215a5",
+      "count": 1
+    },
+    {
+      "id": 4,
+      "category": {
+        "id": 4,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "Цезаріо",
+      "nameEN": "Tsezario",
+      "description": "соус вершковий, помідори, хрусткий салат, пармезан, куряче м'ясо, сир моцарела, перепелині яйця.",
+      "weight": "580 гр",
+      "price": 182,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Fa3b2fbb4-b2d1-44ac-a0f3-11734d47c52c.jpeg?alt=media&token=5d516ca0-3335-4fa0-af8b-8e5abd3664c0",
+      "count": 1
+    },
+    {
+      "id": 5,
+      "category": {
+        "id": 5,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "Кватро формаджі",
+      "nameEN": "Kvatro formadzhi",
+      "description": "соус вершковий, пармезан, сир моцарела, сир рікотта, сир дор блю,  волоський горіх, груша.",
+      "weight": "390 гр",
+      "price": 172,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F0c9e41dc-5217-458a-b0ff-a6c04bea662a.jpeg?alt=media&token=86981dc6-6244-4968-8038-5cac1f37a803",
+      "count": 1
+    },
+    {
+      "id": 6,
+      "category": {
+        "id": 6,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "Салямі",
+      "nameEN": "Salyami",
+      "description": "соус томатний, сир моцарела, ковбаса салямі",
+      "weight": "390 гр",
+      "price": 131,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F8cf52aa6-be97-4a45-bc0b-70f68883d71c.jpeg?alt=media&token=45952ea7-184a-42cb-9c7c-bbaf2aaf32c2",
+      "count": 1
+    },
+    {
+      "id": 7,
+      "category": {
+        "id": 7,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "Діабола",
+      "nameEN": "Diabola",
+      "description": "соус томатний, сир моцарела, перець чилі, ковбаса пепероні.",
+      "weight": "420 гр",
+      "price": 127,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Ff628fd7d-c409-4ba5-b060-299d424ce850.jpeg?alt=media&token=8b607add-1e86-4cf6-a450-d2cc6df16284",
+      "count": 1
+    },
+    {
+      "id": 8,
+      "category": {
+        "id": 8,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "Карбонара",
+      "nameEN": "Karbonara",
+      "description": "соус томатний, шинка, запечене яйце, сир моцарела, баварські ковбаски.",
+      "weight": "460 гр",
+      "price": 142,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F0b2d97b0-4659-4767-a00e-6d882b851e7e.jpeg?alt=media&token=c657eae0-88d1-49ca-ab94-7664158c840b",
+      "count": 1
+    },
+    {
+      "id": 9,
+      "category": {
+        "id": 9,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "Прошуто",
+      "nameEN": "Proshuto",
+      "description": "соус томатний, сир моцарела, шинка.",
+      "weight": "390 гр",
+      "price": 131,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Fbed71cbe-df41-420e-af50-c0647c7d9eef.jpeg?alt=media&token=834dddba-06cf-4468-927a-105564da2015",
+      "count": 1
+    },
+    {
+      "id": 10,
+      "category": {
+        "id": 10,
+        "nameUA": "піца",
+        "nameEN": "pizza"
+      },
+      "nameUA": "Кальцоне аль Форно",
+      "nameEN": "Kalzone",
+      "description": "соус томатний, пармезан, сир моцарела, сир рікота, шинка, помідори.",
+      "weight": "450 гр",
+      "price": 133,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Fdf870c7f-bab2-490c-854b-b1ef6fc61d98.jpeg?alt=media&token=83052953-1181-4066-8792-82b35c9a9385",
+      "count": 1
+    },
+    {
+      "id": 11,
+      "category": {
+        "id": 11,
+        "nameUA": "салат",
+        "nameEN": "salad"
+      },
+      "nameUA": "Цезар з курячим філе",
+      "nameEN": "Cezar",
+      "description": "Салат айсберг, помідори, куряче м`ясо, сир пармезан, перепелині яйця, духмяні сухарики та фірмова заправка. ",
+      "weight": "250 гр",
+      "price": 125,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F676ebc53-659f-4a13-9fad-134668fc7873.jpeg?alt=media&token=379122b7-5517-4380-969a-997004807ef6",
+      "count": 1
+    },
+    {
+      "id": 12,
+      "category": {
+        "id": 12,
+        "nameUA": "салат",
+        "nameEN": "salad"
+      },
+      "nameUA": "Інсалата ді Сальмоне",
+      "nameEN": "Insalata",
+      "description": "рукола, помідор чері, огірок, салат айсберг, соус айолі, пармезан, лосось, перепелине яйце, кунжут. ",
+      "weight": " 285 гр",
+      "price": 134,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F472d1403-1c29-4d57-a219-3a4c33d7d36f.jpeg?alt=media&token=135c8bab-eaf8-4fff-aa23-609e0a9d58dc",
+      "count": 1
+    },
+    {
+      "id": 13,
+      "category": {
+        "id": 13,
+        "nameUA": "салат",
+        "nameEN": "salad"
+      },
+      "nameUA": "Прімавера",
+      "nameEN": "Primavera",
+      "description": "сир моцарела, салат айсберг, помідор чері, огірок, болгарський перець, оливкова олія, фреш лимонний, орегано. ",
+      "weight": "255гр",
+      "price": 99,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Fa031d3d7-9b51-4ed6-bbae-5a51b688baf5.jpeg?alt=media&token=669174b4-84fc-4412-9e54-7de96df7864b",
+      "count": 1
+    },
+    {
+      "id": 14,
+      "category": {
+        "id": 14,
+        "nameUA": "салат",
+        "nameEN": "salad"
+      },
+      "nameUA": "Салат Цезар з телятиною",
+      "nameEN": "Cezar z Telyatyny",
+      "description": "Салат айсберг, помідори, телятина , сир пармезан, перепелині яйця, духмяні сухарики та фірмова заправка. ",
+      "weight": " 250 гр",
+      "price": 163,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F24ad13a9-cd85-4e6a-95ed-b0416c843463.jpeg?alt=media&token=cb15424f-8ab1-4f52-af39-490edda8895b",
+      "count": 1
+    },
+    {
+      "id": 15,
+      "category": {
+        "id": 15,
+        "nameUA": "салат",
+        "nameEN": "salad"
+      },
+      "nameUA": "Інсалата ді Прошуто",
+      "nameEN": "Insalata di Proshutto",
+      "description": "Салат айcберг, прошуто, сир пармезан, помідори, рукола та бальзамічна заправка. ",
+      "weight": "135 гр",
+      "price": 134,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Ff5063c6c-c2c3-45c2-8cd0-b46654d4dc89.jpeg?alt=media&token=8febf98b-ce6b-4459-be95-416743398a4c",
+      "count": 1
+    },
+    {
+      "id": 16,
+      "category": {
+        "id": 16,
+        "nameUA": "салат",
+        "nameEN": "salad"
+      },
+      "nameUA": "Інсалата ді Фета",
+      "nameEN": "Insalata di Feta",
+      "description": "Салат айсберг, свіжі овочі, сир фета, кунжут, оливки, бальзамічна заправка. ",
+      "weight": "250 гр",
+      "price": 112,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F9e32b486-c0cf-45f0-b0ae-79996ba81c60.jpeg?alt=media&token=aedb73ac-a62e-4a5e-9e55-66846c8253eb",
+      "count": 1
+    },
+    {
+      "id": 17,
+      "category": {
+        "id": 17,
+        "nameUA": "напої",
+        "nameEN": "drinks"
+      },
+      "nameUA": "Вода BonAqua",
+      "nameEN": "BonAqua",
+      "description": "",
+      "weight": "1 л",
+      "price": 29,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F717e15bc-666d-4dc0-b981-2c423a40c2c1.jpeg?alt=media&token=293a9c81-4171-4023-8b3a-b3bfaff0a3a0",
+      "count": 1
+    },
+    {
+      "id": 18,
+      "category": {
+        "id": 18,
+        "nameUA": "напої",
+        "nameEN": "drinks"
+      },
+      "nameUA": "Кока Кола",
+      "nameEN": "Coca Cola",
+      "description": "",
+      "weight": "0,5 л",
+      "price": 24,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F80886b21-dac8-488b-b5ed-e25f69e5396e.jpeg?alt=media&token=da55859c-cac9-4d8e-8187-2a7b5fa7a66b",
+      "count": 1
+    },
+    {
+      "id": 19,
+      "category": {
+        "id": 19,
+        "nameUA": "напої",
+        "nameEN": "drinks"
+      },
+      "nameUA": "Кока Кола",
+      "nameEN": "Coca Cola",
+      "description": "",
+      "weight": "1 л",
+      "price": 34,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F5f9baad8-5968-4834-b714-287664aaab7c.jpeg?alt=media&token=a1108cce-fd9d-4ccb-8136-572e03416836",
+      "count": 1
+    },
+    {
+      "id": 20,
+      "category": {
+        "id": 20,
+        "nameUA": "напої",
+        "nameEN": "drinks"
+      },
+      "nameUA": "Сік томатний",
+      "nameEN": "Tomato Juice",
+      "description": "",
+      "weight": "1 л",
+      "price": 42,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F9ecd5790-bd04-4fc0-92b1-669ec426fc19.jpeg?alt=media&token=5123e385-0c14-43ed-bc54-e5957113c88f",
+      "count": 1
+    },
+    {
+      "id": 21,
+      "category": {
+        "id": 21,
+        "nameUA": "напої",
+        "nameEN": "drinks"
+      },
+      "nameUA": "Сік яблучний",
+      "nameEN": "Apple Juice",
+      "description": "",
+      "weight": " 1 л",
+      "price": 42,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F868df3d9-fecc-4b00-b1a3-b7293b382d81.jpeg?alt=media&token=7135df46-d33f-4e47-87fc-f661a1635208",
+      "count": 1
+    },
+    {
+      "id": 22,
+      "category": {
+        "id": 22,
+        "nameUA": "напої",
+        "nameEN": "drinks"
+      },
+      "nameUA": "Cік вишневий, ТМ “RICH”",
+      "nameEN": "Cherry Juice",
+      "description": "",
+      "weight": "1 л",
+      "price": 42,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F77d4a819-d6c6-4f3d-b951-da026281988e.jpeg?alt=media&token=316c9345-1b4b-4b59-9321-768e30c0ecfd",
+      "count": 1
+    },
+    {
+      "id": 23,
+      "category": {
+        "id": 23,
+        "nameUA": "напої",
+        "nameEN": "drinks"
+      },
+      "nameUA": "Сік гранатовий",
+      "nameEN": "Pomegranate Juice",
+      "description": "",
+      "weight": "1 л",
+      "price": 42,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F0c2e7479-8aaf-466b-bd5f-0cfde23a4544.jpeg?alt=media&token=a05d59f4-5cd5-48f6-9e11-613091fec301",
+      "count": 1
+    },
+    {
+      "id": 24,
+      "category": {
+        "id": 24,
+        "nameUA": "напої",
+        "nameEN": "drinks"
+      },
+      "nameUA": "Сік Екзотик",
+      "nameEN": "Exotic Juice",
+      "description": "",
+      "weight": "1 л",
+      "price": 42,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Fae61838c-2050-4e16-9a1c-2eb09aa3feeb.jpeg?alt=media&token=7ff3ae13-3fc4-4f5d-a02f-4103aed0edc7",
+      "count": 1
+    }
+  ],
+  "adminBlog": [
+    {
+      "id": 1,
+      "title": "Новина !",
+      "text": "Зовсім скоро у нашому закладі передбачено зміна інтер'єру. ",
+      "author": "К.",
+      "date": 1587467486721,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F69c1c059-9937-479a-b3a4-43a5eecdf8ae.jpeg?alt=media&token=01f3f322-a751-46ce-998c-1f7537ea711a"
+    },
+    {
+      "id": 2,
+      "title": "літня тераса",
+      "text": "Від початку літнього сезону у нас відкривається літня тераса, яка буде працювати з 12:00 до 21:00.",
+      "author": "К.",
+      "date": 1587468018687,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Ff403abd8-5586-4d34-a6df-b300c96b8428.jpeg?alt=media&token=e44b7459-9566-4077-94fb-47b4bdf5c61f"
+    }
+  ],
+  "orders": [
+    {
+      "id": 2,
+      "userName": "Петро",
+      "userPhone": "0983457503",
+      "userCity": "Брюховичі",
+      "userStreet": "Сміливих",
+      "userHouse": "32",
+      "ordersDetails": [
+        {
+          "id": 17,
+          "category": {
+            "id": 17,
+            "nameUA": "напої",
+            "nameEN": "drinks"
+          },
+          "nameUA": "Вода BonAqua",
+          "nameEN": "BonAqua",
+          "description": "",
+          "weight": "1 л",
+          "price": 29,
+          "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F717e15bc-666d-4dc0-b981-2c423a40c2c1.jpeg?alt=media&token=293a9c81-4171-4023-8b3a-b3bfaff0a3a0",
+          "count": 1
+        },
+        {
+          "id": 13,
+          "category": {
+            "id": 13,
+            "nameUA": "салат",
+            "nameEN": "salad"
+          },
+          "nameUA": "Прімавера",
+          "nameEN": "Primavera",
+          "description": "сир моцарела, салат айсберг, помідор чері, огірок, болгарський перець, оливкова олія, фреш лимонний, орегано. ",
+          "weight": "255гр",
+          "price": 99,
+          "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Fa031d3d7-9b51-4ed6-bbae-5a51b688baf5.jpeg?alt=media&token=669174b4-84fc-4412-9e54-7de96df7864b",
+          "count": 2
+        }
+      ],
+      "totalPayment": 227,
+      "userComment": "Без решти!",
+      "orderDate": "2020-04-23T15:15:21.968Z",
+      "orderStatus": false
+    },
+    {
+      "id": 3,
+      "userName": "Іван",
+      "userPhone": "0650875493",
+      "userCity": "Зимна Вода",
+      "userStreet": "Голосів",
+      "userHouse": "1",
+      "ordersDetails": [
+        {
+          "id": 11,
+          "category": {
+            "id": 11,
+            "nameUA": "салат",
+            "nameEN": "salad"
+          },
+          "nameUA": "Цезар з курячим філе",
+          "nameEN": "Cezar",
+          "description": "Салат айсберг, помідори, куряче м`ясо, сир пармезан, перепелині яйця, духмяні сухарики та фірмова заправка. ",
+          "weight": "250 гр",
+          "price": 125,
+          "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F676ebc53-659f-4a13-9fad-134668fc7873.jpeg?alt=media&token=379122b7-5517-4380-969a-997004807ef6",
+          "count": 2
+        },
+        {
+          "id": 7,
+          "category": {
+            "id": 7,
+            "nameUA": "піца",
+            "nameEN": "pizza"
+          },
+          "nameUA": "Діабола",
+          "nameEN": "Diabola",
+          "description": "соус томатний, сир моцарела, перець чилі, ковбаса пепероні.",
+          "weight": "420 гр",
+          "price": 127,
+          "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Ff628fd7d-c409-4ba5-b060-299d424ce850.jpeg?alt=media&token=8b607add-1e86-4cf6-a450-d2cc6df16284",
+          "count": 2
+        },
+        {
+          "id": 20,
+          "category": {
+            "id": 20,
+            "nameUA": "напої",
+            "nameEN": "drinks"
+          },
+          "nameUA": "Сік томатний",
+          "nameEN": "Tomato Juice",
+          "description": "",
+          "weight": "1 л",
+          "price": 42,
+          "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F9ecd5790-bd04-4fc0-92b1-669ec426fc19.jpeg?alt=media&token=5123e385-0c14-43ed-bc54-e5957113c88f",
+          "count": 1
+        },
+        {
+          "id": 2,
+          "category": {
+            "id": 2,
+            "nameUA": "напої",
+            "nameEN": "drinks"
+          },
+          "nameUA": "Вода BonAqua",
+          "nameEN": "BonAqua",
+          "description": "",
+          "weight": "0,5 л",
+          "price": 20,
+          "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F2f556427-24c9-4249-81d4-e8fa5bf1c078.jpeg?alt=media&token=04da9501-b9f9-43dc-b1e4-fd614d6eb62a",
+          "count": 2
+        }
+      ],
+      "totalPayment": 586,
+      "userComment": "Біля брами злий пес",
+      "orderDate": "2020-04-23T15:39:35.562Z",
+      "orderStatus": false
+    },
+    {
+      "id": 4,
+      "userName": "John",
+      "userPhone": "078463495",
+      "userCity": "Гаївка",
+      "userStreet": "Лапландії",
+      "userHouse": "1",
+      "ordersDetails": [
+        {
+          "id": 1,
+          "category": {
+            "id": 1,
+            "nameUA": "піца",
+            "nameEN": "pizza"
+          },
+          "nameUA": "Маргарита",
+          "nameEN": "Margaryta",
+          "description": "соус томатний, сир моцарела, помідори.",
+          "weight": "400 гр",
+          "price": 149,
+          "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F1007cea2-4344-4c08-ad00-c05713178116.jpeg?alt=media&token=49bb9684-3880-484f-85b7-950e005b8eb9",
+          "count": 1,
+          "ingredients": [
+            {
+              "id": 4,
+              "nameUA": "пармезан",
+              "weight": "50",
+              "price": 50,
+              "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F96e5cbac-0db8-432d-a1ca-c4dc489b3e84.jpeg?alt=media&token=19e3549d-b0c7-4ab3-bce2-8fc249c0c190"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "category": {
+            "id": 3,
+            "nameUA": "піца",
+            "nameEN": "pizza"
+          },
+          "nameUA": "Капрічоза",
+          "nameEN": "Kaprichoza",
+          "description": "соус томатний, сир моцарела, шинка, свіжі гриби.",
+          "weight": "450 гр",
+          "price": 165,
+          "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Fce7d33b6-a4aa-42ff-b6f3-d6ee11b6693e.jpeg?alt=media&token=10baf660-d3c9-4a56-9b13-a6e3084215a5",
+          "count": 1,
+          "ingredients": [
+            {
+              "id": 11,
+              "nameUA": "перець чилі",
+              "weight": "50",
+              "price": 24,
+              "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F7d669503-f516-416e-90f4-14e4a6f929de.jpeg?alt=media&token=90b8ee1f-8057-4f1a-89f8-8768c63dbf24"
+            }
+          ]
+        }
+      ],
+      "totalPayment": 314,
+      "userComment": "",
+      "orderDate": "2020-04-26T16:13:27.980Z",
+      "orderStatus": false
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "nameUA": "соус барбекю",
+      "weight": "50",
+      "price": 19,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Fc9c6f36e-e167-4456-895c-99758598683f.jpeg?alt=media&token=9e014325-b2b7-4fe8-943f-cea300098292"
+    },
+    {
+      "id": 2,
+      "nameUA": "соус пікантний",
+      "weight": "50",
+      "price": 19,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F1ae8ac04-c7a8-4615-9643-ab0257240aa3.jpeg?alt=media&token=37d83cac-c638-4407-8fb3-d4abd9184470"
+    },
+    {
+      "id": 3,
+      "nameUA": "соус цезар",
+      "weight": "50",
+      "price": 19,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F56dfa663-c3b6-42a3-9b04-70c88fb3db17.jpeg?alt=media&token=1cb1a408-41eb-4cb5-a9ec-483ecfe08cdd"
+    },
+    {
+      "id": 4,
+      "nameUA": "пармезан",
+      "weight": "50",
+      "price": 50,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F96e5cbac-0db8-432d-a1ca-c4dc489b3e84.jpeg?alt=media&token=19e3549d-b0c7-4ab3-bce2-8fc249c0c190"
+    },
+    {
+      "id": 5,
+      "nameUA": "сир моцарела",
+      "weight": "50",
+      "price": 38,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Fc8a734ca-0131-428b-8cf7-f7cd7ad7427d.jpeg?alt=media&token=77e3824e-2c06-434d-a175-9da4980612b3"
+    },
+    {
+      "id": 6,
+      "nameUA": "шинка",
+      "weight": "50",
+      "price": 38,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Fa27c34a0-7753-4424-a58e-715efcec0b64.jpeg?alt=media&token=a4111225-5ce3-4549-9849-f5e69c8848b8"
+    },
+    {
+      "id": 7,
+      "nameUA": "прошуто",
+      "weight": "50",
+      "price": 46,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F58677473-d20e-43e8-85e3-c827badaa10d.jpeg?alt=media&token=1b79288d-e8a0-4c46-aa34-badd01ad42de"
+    },
+    {
+      "id": 8,
+      "nameUA": "гриби",
+      "weight": "50",
+      "price": 19,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F21054939-bbd3-40fe-9eb6-9b90c997e793.jpeg?alt=media&token=50845c16-ed92-4c08-aafb-716562142d81"
+    },
+    {
+      "id": 9,
+      "nameUA": "помідори",
+      "weight": "50",
+      "price": 18,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2Fa65c62ec-667c-4745-8d55-b6f88c89794e.jpeg?alt=media&token=94a9c6ba-5170-46a1-a8b7-66222b521158"
+    },
+    {
+      "id": 10,
+      "nameUA": "перець болгарський",
+      "weight": "50",
+      "price": 24,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F044e7686-79c7-4d69-b9da-7e8eee0031fb.jpeg?alt=media&token=d048d276-fa68-4fc0-b136-6d128b31f14c"
+    },
+    {
+      "id": 11,
+      "nameUA": "перець чилі",
+      "weight": "50",
+      "price": 24,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F7d669503-f516-416e-90f4-14e4a6f929de.jpeg?alt=media&token=90b8ee1f-8057-4f1a-89f8-8768c63dbf24"
+    },
+    {
+      "id": 12,
+      "nameUA": "цибуля",
+      "weight": "25",
+      "price": 10,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F76d3451b-3133-49b4-a96d-0271ae52bc30.jpeg?alt=media&token=e80db267-bbae-4c61-bd7f-48053a84b37b"
+    },
+    {
+      "id": 13,
+      "nameUA": "оливки",
+      "weight": "50",
+      "price": 42,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F21606e69-b5c6-4412-a079-03079f4668bf.jpeg?alt=media&token=dc51ebd4-4adb-451e-a948-c47eb36d5a93"
+    },
+    {
+      "id": 14,
+      "nameUA": "кукурудза",
+      "weight": "50",
+      "price": 18,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F8d0f3516-e081-4c67-a05a-010b64db8d69.jpeg?alt=media&token=6a2574e3-0808-42c0-9925-9de4a8942304"
+    },
+    {
+      "id": 15,
+      "nameUA": "зелень",
+      "weight": "10",
+      "price": 10,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F8dc84b0c-f37f-4d7b-b4de-2ac2de895b87.jpeg?alt=media&token=40cdb686-c2c8-4270-b41e-851e1b814cb3"
+    },
+    {
+      "id": 16,
+      "nameUA": "ананас",
+      "weight": "50",
+      "price": 29,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F22be87b3-3417-49be-982a-a6e189e3320e.jpeg?alt=media&token=aab42e87-837f-4aa3-94ba-0e6e3f361409"
+    },
+    {
+      "id": 17,
+      "nameUA": "ковбаски баварські",
+      "weight": "50",
+      "price": 32,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F7e284889-3246-4e61-a239-249e6db8c71f.jpeg?alt=media&token=e8260122-30c3-4ee4-a404-f7f616e0b351"
+    },
+    {
+      "id": 18,
+      "nameUA": "пепероні",
+      "weight": "50",
+      "price": 34,
+      "image": "https://firebasestorage.googleapis.com/v0/b/trainee-lapiec-14bc2.appspot.com/o/images%2F6259898b-6ab2-4ded-a692-1e98899ebbc6.jpeg?alt=media&token=0d1ea03a-b27c-4ed8-8cec-631c99888401"
+    }
+  ],
+  "users": [
+    {
+      "id": 1
+    }
+  ]
+}

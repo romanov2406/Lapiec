@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="d-flex">
+    <div class="smallBox mt-3" [@appear] *ngFor="let discount of arrayDiscounts">
+      <div class="d-flex justify-content-center">
+        <img [attr.src]="discount.image" alt="image discount">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title text-center">{{ discount.title | titlecase}}</h5>
+        <hr>
+        <div class="d-flex justify-content-center">
+          <button type="button" class="btn" [routerLink]="[ '/discount', discount.id ]">Скористатися</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

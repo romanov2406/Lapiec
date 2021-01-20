@@ -1,0 +1,15 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #121418;
+}
+.nav-link:hover{
+    background-color:#3d3f42c2;
+    color: white;
+}
+a{
+    color: rgb(10, 10, 10);
+}
+.container-fluid{
+    // height: 100vh;
+    margin-top: 20px;
+}

@@ -1,0 +1,27 @@
+app/
+    components/
+        header
+        footer
+
+    pages/
+        Home.components
+        discount.components
+        pizza
+        salad
+        drinks
+        payment
+        basket/orders
+    shared/    
+        interfaces /
+        models/
+        directives/
+        pipes/
+        services/
+        guards/
+    admin/
+        admin-category/
+        admin-product/
+        admin-discount/
+        admin-orders/
+
+

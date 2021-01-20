@@ -1,0 +1,97 @@
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="" [routerLink]="[ '/home' ]">
+      <img src="https://www.lapiec-pizza.com.ua/wp-content/themes/lapiec/fonts/svg-icons/logo-dark.svg" alt="Logo"
+        class="logoImage">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto w-100 justify-content-around align-items-center">
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="[ '/discount' ]" routerLinkActive="text-warning">
+            <img class="icons" src="https://www.lapiec-pizza.com.ua/wp-content/uploads/2018/07/menu-icon-1.svg"
+              alt="Discounts">
+            <p> Discount</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="[ '/menu/pizza' ]" routerLinkActive="text-warning">
+            <img class="icons" src="https://www.lapiec-pizza.com.ua/wp-content/uploads/2018/07/menu-icon-2.svg"
+              alt="Pizza">
+            <p>Pizza</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="[ '/menu/salad' ]" routerLinkActive="text-warning">
+            <img class="icons" src="https://www.lapiec-pizza.com.ua/wp-content/uploads/2018/07/menu-icon-3.svg"
+              alt="Salad">
+            <p>Salad</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="[ '/menu/drinks' ]" routerLinkActive="text-warning">
+            <img class="icons" src="https://www.lapiec-pizza.com.ua/wp-content/uploads/2018/07/menu-icon-4.svg"
+              alt="Drinks">
+            <p>Drinks</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="[ '/payment' ]" routerLinkActive="text-warning">
+            <img class="icons" src="https://www.lapiec-pizza.com.ua/wp-content/uploads/2018/07/menu-icon-5.svg"
+              alt="Payment">
+            <p>Payment</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="[ '/blog' ]" routerLinkActive="text-warning">
+            <img class="icons" src="https://image.flaticon.com/icons/svg/1187/1187595.svg" alt="Blog">
+            <p>Blog</p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="[ '/basket' ]" routerLinkActive="text-warning"><i
+              class="uil uil-shopping-cart" style="font-size: 35px;"></i>
+            <span class="price">{{ totalPrice }} грн</span>
+          </a>
+        </li>
+        <li  *ngIf="!statusLogin">
+          <button class="nav-link btnModal" (click)="openModal(template)">Sign In/Up</button>
+        </li>
+        <li class="nav-item" *ngIf="statusLogin">
+          <a class="nav-link" [routerLink]="[ '/'+urlLogin ]"
+            routerLinkActive="text-warning">{{ pageLogin  | titlecase}}</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+</header>
+<ng-template #template>
+  <div class="modal-header">
+    <h4 class="modal-title">Sign In/Up</h4>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+    <form>
+      <div class="form-group">
+        <label for="login">Login:</label>
+        <input type="text" class="form-control" id="login" placeholder="login here .." [(ngModel)]="login" name="login">
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" id="password" placeholder="password here .." [(ngModel)]="password"
+          name="password">
+      </div>
+    </form>
+  </div>
+  <div class="modal-footer d-flex justify-content-between">
+    <button class="d-block btn btn-outline-secondary" (click)="signIn()">Увійти</button>
+    <button class="d-block btn btn-outline-secondary" (click)="signUp()">Зареєструватись</button>
+  </div>
+</ng-template>
